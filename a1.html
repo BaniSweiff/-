@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>نموذج الدفع</title>
+	<link rel="stylesheet" href="a.css">
+</head>
+<body>
+	<header>
+		<h1>موقع الدفع الإلكتروني</h1>
+	</header>
+	
+	<main>
+		<form>
+			<h2>تفاصيل الدفع</h2>
+		
+			
+			<select name="ctl00$ContentPlaceHolder1$CatDropDown" id="ContentPlaceHolder1_CatDropDown" class="form-control">
+				<option value="0">--أختر الكليه--</option>
+				<option value="1">كلية التربية</option>
+				<option value="2">كلية التكنولوجيا والتعليم</option>
+				<option value="3">كلية التمريض</option>
+				<option value="4">كلية الصيدله</option>
+				<option value="5">كلية التربية الرياضية</option>
+				<option value="7">كلية الحقوق</option>
+				<option value="8">كلية الطب</option>
+				<option value="9">كلية الطب البيطرى</option>
+				<option value="10">كلية العلوم</option>
+				<option value="11">كلية الآداب</option>
+				<option value="12">كلية التجارة</option>
+				<option value="358">كلية التربية للطفولة المبكرة</option>
+				<option value="431">كلية الهندسة</option>
+				<option value="579">كلية السياسة والاقتصاد</option>
+				<option value="588">كلية الاعلام</option>
+				<option value="590">كلية الحاسبات والذكاء الاصطناعى</option>
+				<option value="591">كلية طب الاسنان</option>
+				<option value="592">كلية العلاج الطبيعى</option>
+				<option value="593">كلية الدراسات العليا للعلوم المتقدمة</option>
+				<option value="603">كلية الزراعة</option>
+				<option value="604">كلية تكنولوجيا العلوم الصحية التطبيقية</option>
+				<option value="605">كلية الفنون التطبيقية</option>
+				<option value="607">كلية الخدمة الاجتماعية التنموية</option>
+				<option value="609">كلية الالسن</option>
+				<option value="610">كلية السياحة والفنادق</option>
+				<option value="612">كلية علوم الارض</option>
+				<option value="613">كلية علوم ذوى الاحتياجات الخاصة</option>
+				<option value="625">معهد فنى تمريض</option>
+				<option value="633">معهد ابحاث وتطبيقات الليزر</option>
+				<option value="654">كليات التعليم المفتوح بالجامعة</option>
+				<option value="656">المعهد القومى لعلوم المسنين</option>
+				<option value="681">كلية علوم الملاحة و تكنولوجيا الفضاء</option>
+				<option value="684">معهد دراسات المشروعات الصغيرة والمتوسطة</option>
+				<option value="706">معهد ابحاث النباتات الطبية والعطرية</option>
+		
+			</select> <br>
+		<br>
+			
+		<input type="number" id="num" placeholder=" الرقم القومى باللغه الانجليزيه " >
+
+		
+			<label for="card">رقم البطاقة:</label>
+			<input  type="number" id="number" class="username form-control" placeholder=" **** **** **** **** " >
+			
+			
+			
+			<label for="expiry">تاريخ انتهاء الصلاحية:</label>
+			
+			<select  id="mm" >
+				<option value="0">MM</option>
+				<option value="1"> 1 </option>
+				<option value="2"> 2 </option>
+				<option value="3"> 3</option>
+				<option value="4"> 4 </option>
+				<option value="5"> 5 </option>
+				<option value="7"> 6</option>
+				<option value="8"> 7</option>
+				<option value="9"> 8 </option>
+				<option value="10"> 9 </option>
+				<option value="11"> 10 </option>
+				<option value="12"> 11 </option>
+				<option value="12"> 12 </option>
+		
+			</select>
+			<select  id="dd" >
+				<option value="0">DD</option>
+				<option value="23"> 23 </option>
+				<option value="24"> 24 </option>
+				<option value="25"> 25</option>
+				<option value="26"> 26 </option>
+				<option value="27"> 27 </option>
+				<option value="28"> 28 </option>
+		<option value="29"> 29 </option>
+			</select>
+			
+			<br>
+			<br>
+			<label for="cvv">CVV:</label>
+			
+			<input   id="cvv" class="username form-control" placeholder=" CVV ">
+			<br>
+<br>
+			<button  id="btn"> ادفع</button>
+		</form>
+	</main>
+	
+	<footer>
+		<p>جميع الحقوق محفوظة © 2023</p>
+	</footer>
+	
+	<script src="a.js"></script>
+</body>
+</html>
